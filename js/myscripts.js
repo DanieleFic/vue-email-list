@@ -24,6 +24,7 @@ let app = new Vue({
         creaEmail: function(){
             for ( i = 0; i  < 10; i++) {
                 this.cicloEmail()
+                this.email= []
             }
         }
 }})
