@@ -10,7 +10,7 @@
 <body>
     <div id="app">
         <button @click="creaEmail">Genera 10 email</button>
-        <ul>
+        <ul v-if="email.length >= 10">
             <li v-for="(item, indice) in email"  >
             {{item}} - {{indice+1}}
             </li>
